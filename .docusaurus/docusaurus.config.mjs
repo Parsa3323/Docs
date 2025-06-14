@@ -26,13 +26,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "D:\\AdvancedArmorStands\\docs\\project-bolt-sb1-uzdqq3cn\\project\\sidebars.js",
+          "sidebarPath": "/home/project/sidebars.js",
           "editUrl": "https://github.com/AdvancedArmorStands/Docs/tree/main/",
           "routeBasePath": "/"
         },
         "blog": false,
         "theme": {
-          "customCss": "D:\\AdvancedArmorStands\\docs\\project-bolt-sb1-uzdqq3cn\\project\\src\\css\\custom.css"
+          "customCss": "/home/project/src/css/custom.css"
         }
       }
     ]
@@ -59,14 +59,6 @@ export default {
         }
       ],
       "hideOnScroll": false
-    },
-    "algolia": {
-      "appId": "EQXVGOEPYF",
-      "apiKey": "4aa54546a894f39f89d2f860c349f4c1",
-      "indexName": "advancedarmorstands",
-      "contextualSearch": true,
-      "searchParameters": {},
-      "searchPagePath": "search"
     },
     "footer": {
       "style": "dark",
@@ -399,19 +391,13 @@ export default {
   },
   "baseUrlIssueBanner": true,
   "future": {
-    "v4": {
-      "removeLegacyPostBuildHeadAttribute": false,
-      "useCssCascadeLayers": false
-    },
     "experimental_faster": {
       "swcJsLoader": false,
       "swcJsMinimizer": false,
       "swcHtmlMinimizer": false,
       "lightningCssMinimizer": false,
       "mdxCrossCompilerCache": false,
-      "rspackBundler": false,
-      "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
+      "rspackBundler": false
     },
     "experimental_storage": {
       "type": "localStorage",
