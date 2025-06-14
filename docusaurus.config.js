@@ -69,15 +69,15 @@ const config = {
         ],
       },
 
-      algolia: {
-        appId: process.env.APP_ID,
-        apiKey: process.env.ALGOLIA_API_KEY,
-        indexName: process.env.INDEX_NAME,
+      // algolia: {
+      //   appId: process.env.APP_ID,
+      //   apiKey: process.env.ALGOLIA_API_KEY,
+      //   indexName: process.env.INDEX_NAME,
       
-        contextualSearch: true,
-        searchParameters: {},
-        searchPagePath: 'search',
-      },
+      //   contextualSearch: true,
+      //   searchParameters: {},s
+      //   searchPagePath: 'search',
+      // },
       footer: {
         style: 'dark',
         links: [
