@@ -75,7 +75,7 @@ const config = {
       //   indexName: process.env.INDEX_NAME,
       
       //   contextualSearch: true,
-      //   searchParameters: {},s
+      //   searchParameters: {},
       //   searchPagePath: 'search',
       // },
       footer: {
